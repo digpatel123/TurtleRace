@@ -25,6 +25,8 @@ def clear():
     tt.penup()
     tt.home()
     tt.penup()
+
+
 screen.listen()
 screen.onkey(key="w", fun=move_forward)
 screen.onkey(key="a", fun=turn_left)
